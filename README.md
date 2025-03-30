@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ### 3️⃣ Run the Prediction Model
 To execute the Python script for predictions:
 ```bash
-python main.py
+jupyter notebook model.ipynb
 ```
 
 ### 4️⃣ Run the Web App
