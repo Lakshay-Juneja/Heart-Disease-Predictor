@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.env/
+.env.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data Files (avoid pushing large datasets)
+*.csv
+*.pkl
+*.h5
+*.joblib
+
+# IDE & OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Streamlit secrets
+.secrets/
