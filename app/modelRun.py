@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from pathlib import Path
+import os
 
 # Set page config
 st.set_page_config(page_title="Heart Disease Prediction", layout="wide")
@@ -12,7 +13,8 @@ st.set_page_config(page_title="Heart Disease Prediction", layout="wide")
 def loadModel():
     try:
         # Load the model 
-        with open('heartModel.pkl', 'rb') as file:
+        MODEL_PATH = os.path.join(os.path.dirname(__file__), 'heartModel.pkl')
+        with open(MODEL_PATH, 'rb') as file:
             model = pickle.load(file)
         return model
     except Exception as e:
