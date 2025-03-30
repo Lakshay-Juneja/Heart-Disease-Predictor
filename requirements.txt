@@ -1,15 +1,16 @@
-# Core Requirements
+# Core Application
 streamlit==1.29.0
-scikit-learn==1.3.0
-pandas==2.0.3
-numpy==1.24.3
 
-# Model Serialization
+# Machine Learning
+scikit-learn==1.4.0
+numpy==2.0.0
+pandas==2.1.0
 joblib==1.3.2
 
-# Optional Visualization (include if used)
-matplotlib==3.7.2
-seaborn==0.12.2
+# Build Requirements
+setuptools==68.0.0
+wheel==0.42.0
 
-# Environment Management
-python-dotenv==1.0.0  # Only if using .env files
+# Optional Visualization
+matplotlib==3.8.0
+seaborn==0.13.0
