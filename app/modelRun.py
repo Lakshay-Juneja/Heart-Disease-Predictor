@@ -23,7 +23,7 @@ def loadModel():
 
 model = loadModel()
 
-# Function to make predictions - MODIFIED to return only probability of heart disease
+# Function to make predictions
 def predictHeartDisease(features):
     if model is None:
         st.error("Model not loaded properly. Cannot make predictions.")
@@ -38,7 +38,7 @@ def predictHeartDisease(features):
         st.error(f"Prediction error: {e}")
         return None
 
-# Function to get user input (unchanged)
+# Function to get user input
 def getUserInput():
     userInput = {}
     
