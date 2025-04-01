@@ -4,7 +4,7 @@ numpy<2
 
 # Machine Learning (Python 3.12 compatible versions)
 scikit-learn==1.4.0
-pandas==2.1.0
+pandas==2.2.0
 joblib==1.3.2
 
 # Essential Build Tools
