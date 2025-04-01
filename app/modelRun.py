@@ -91,7 +91,7 @@ def formatInputForDisplay(userInput):
 def main():
     st.title("❤️ Heart Disease Prediction")
     st.write("""
-    This predicts the chnaces of a patient having heart disease based on clinical parameters.
+    This predicts the chances of a patient having heart disease based on clinical parameters.
     The model was trained on the Cleveland Heart Disease dataset with 88.5% accuracy.
     """)
     
